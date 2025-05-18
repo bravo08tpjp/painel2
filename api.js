@@ -2,7 +2,7 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const app = express();
-const PORT = 3001;
+const PORT = 10000;
 
 // Rota inicial para exibir o HTML
 app.get('/', (req, res) => {
